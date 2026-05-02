@@ -1,0 +1,26 @@
+{
+  "name": "m3e",
+  "displayName": "Material 3 Expressive",
+  "description": "A VS Code theme generated from HyprYou's Material 3 Expressive palette.",
+  "version": "1.0.1",
+  "publisher": "marmarek",
+  "scripts": {
+    "build:theme": "node scripts/generate-theme.mjs",
+    "prepare": "npm run build:theme"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Material 3 Expressive",
+        "uiTheme": "vs-dark",
+        "path": "themes/m3e-color-theme.json"
+      }
+    ]
+  }
+}
